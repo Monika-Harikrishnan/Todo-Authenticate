@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Auth;
 
 class todoTeamController extends Controller
 {
-    //display all details in dashboard page
+    //display all details in dashboard page for changes
     public function index() {
     $userId = auth()->id();
     $team = TeamMember::where('user_id', $userId)->simplePaginate(5);

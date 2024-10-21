@@ -1,6 +1,6 @@
 @extends('layouts.main')
 @push('head')
-<title>ToDo create page</title>
+<title>ToDo home page from user</title>
 @endpush
 @section('main-section')
 <div class="container">
