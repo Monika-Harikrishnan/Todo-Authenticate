@@ -40,7 +40,7 @@ class todologinController extends Controller
             return redirect()->back()->withErrors(['password_error' => 'The password is incorrect or minimum 8 letters.']);
         }
     }
-    //edit page
+    //edit page for login page
     public function profileedit(Request $request){
         $id=auth()->id();
         $todo=todologin::find($id);
