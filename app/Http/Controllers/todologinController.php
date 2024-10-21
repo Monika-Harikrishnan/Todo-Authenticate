@@ -47,7 +47,7 @@ class todologinController extends Controller
         $data=compact('todo');
         return view("profile")->with($data);
     }
-    //update profile
+    //update profile for login
     public function profileupdate(Request $request)
     {
         // Validate the request
